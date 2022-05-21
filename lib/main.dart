@@ -38,6 +38,20 @@ class MyApp extends StatelessWidget {
                 color: Colors.cyan[100],
               ),
             ),
+            Text(
+              'مبرمج تطبيقات',
+              style: TextStyle(
+                fontSize: 22,
+                color: Colors.grey.shade200,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(
+              height: 20.0,
+              child: Divider(
+                color: Colors.cyan[100],
+              ),
+            ),
             Card(
                 margin: EdgeInsets.all(10),
                 child: ListTile(
